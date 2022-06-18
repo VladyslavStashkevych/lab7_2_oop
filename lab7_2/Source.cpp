@@ -14,7 +14,7 @@ int main() {
 	vector<int> arr = { 0 };
 	create(arr, n);
 	print(arr, n);
-	cout << "AVG = " << task(arr, n) << endl;
+	cout << "Sum = " << task(arr, n) << endl;
 
 	system("pause");
 	return 0;
